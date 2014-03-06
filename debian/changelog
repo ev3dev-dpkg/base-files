@@ -1,3 +1,9 @@
+base-files (7.1wheezy4ev3dev1) stable; urgency=low
+
+  * Add ev3dev branding
+
+ -- David Lechner <david@lechnology.com>  Thu, 06 Mar 2014 18:52:25 -0600
+
 base-files (7.1wheezy4) stable; urgency=low
 
   * Changed /etc/debian_version to 7.4, for Debian 7.4 point release.

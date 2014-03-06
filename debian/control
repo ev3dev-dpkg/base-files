@@ -1,8 +1,11 @@
 Source: base-files
 Section: admin
 Priority: required
-Maintainer: Santiago Vila <sanvila@debian.org>
-Standards-Version: 3.9.1
+Maintainer: David Lechner <david@lechnology.com>
+XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Standards-Version: 3.9.4
+Vcs-Browser: http://github.com/ev3dev-dpkg/base-files
+Vcs-Git: git://github.com/ev3dev-dpkg/base-files
 
 Package: base-files
 Provides: base
