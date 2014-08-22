@@ -3,7 +3,7 @@ Section: admin
 Priority: required
 Maintainer: David Lechner <david@lechnology.com>
 XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Vcs-Browser: http://github.com/ev3dev-dpkg/base-files
 Vcs-Git: git://github.com/ev3dev-dpkg/base-files
 
