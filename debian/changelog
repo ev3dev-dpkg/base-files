@@ -1,3 +1,10 @@
+base-files (8ev3dev1) stable; urgency=medium
+
+  * Fix ev3dev urls.
+  * Change /etc/os-release to use ev3dev info
+
+ -- David Lechner <david@lechnology.com>  Fri, 01 May 2015 16:55:28 -0500
+
 base-files (8) unstable; urgency=low
 
   * Release for jessie as stable:
