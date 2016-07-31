@@ -1,3 +1,9 @@
+base-files (8+deb8u5ev3dev1) stable; urgency=medium
+
+  * Merge upstream debian changes.
+
+ -- David Lechner <david@lechnology.com>  Sun, 31 Jul 2016 15:12:05 -0500
+
 base-files (8+deb8u5) stable; urgency=low
 
   * Changed /etc/debian_version to 8.5, for Debian 8.5 point release.
