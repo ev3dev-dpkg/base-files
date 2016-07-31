@@ -1,3 +1,35 @@
+base-files (8+deb8u5) stable; urgency=low
+
+  * Changed /etc/debian_version to 8.5, for Debian 8.5 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 22 May 2016 12:48:52 +0200
+
+base-files (8+deb8u4) stable; urgency=low
+
+  * Changed /etc/debian_version to 8.4, for Debian 8.4 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 14 Mar 2016 00:45:24 +0100
+
+base-files (8+deb8u3) stable; urgency=low
+
+  * Changed /etc/debian_version to 8.3, for Debian 8.3 point release.
+  * os-release: Drop trailing slash in SUPPORT_URL variable, as the URL
+    is not supposed to have it. Closes: #781809, #800791.
+
+ -- Santiago Vila <sanvila@debian.org>  Wed, 06 Jan 2016 16:11:48 +0100
+
+base-files (8+deb8u2) stable; urgency=low
+
+  * Changed /etc/debian_version to 8.2, for Debian 8.2 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Wed, 26 Aug 2015 18:30:02 +0200
+
+base-files (8+deb8u1) stable; urgency=low
+
+  * Changed /etc/debian_version to 8.1, for Debian 8.1 point release.
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 04 May 2015 15:19:30 +0200
+
 base-files (8ev3dev1) stable; urgency=medium
 
   * Fix ev3dev urls.
