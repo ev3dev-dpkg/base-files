@@ -1,7 +1,5 @@
-PRETTY_NAME="Debian #OSNAME# 8 (jessie)"
+PRETTY_NAME="Debian #OSNAME# stretch/sid"
 NAME="Debian #OSNAME#"
-VERSION_ID="8"
-VERSION="8 (jessie)"
 ID=ev3dev
 ID_LIKE=debian
 HOME_URL="http://www.ev3dev.org/"

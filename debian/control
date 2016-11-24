@@ -3,7 +3,8 @@ Section: admin
 Priority: required
 Maintainer: David Lechner <david@lechnology.com>
 XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
-Standards-Version: 3.9.5
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9)
 Vcs-Browser: http://github.com/ev3dev/base-files
 Vcs-Git: git://github.com/ev3dev/base-files
 
@@ -11,6 +12,7 @@ Package: base-files
 Provides: base
 Architecture: any
 Pre-Depends: awk
+Depends: ${misc:Depends}
 Essential: yes
 Priority: required
 Replaces: base, miscutils, dpkg (<= 1.15.0)
