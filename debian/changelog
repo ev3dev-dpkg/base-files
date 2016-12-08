@@ -1,3 +1,24 @@
+base-files (9.7) unstable; urgency=medium
+
+  * Do not care about /etc/nsswitch.conf anymore, as the file has been
+    moved to libc-bin. Closes: #827095.
+  [ Guillem Jover ]
+  * Do not use gzip compression anymore to build .deb and use the default.
+
+ -- Santiago Vila <sanvila@debian.org>  Sun, 27 Nov 2016 19:29:38 +0100
+
+base-files (9.6) unstable; urgency=low
+
+  * Add lintian override for /etc/os-release.
+  * Add lintian overrides for /usr/share/common-licenses.
+  * Standards-Version: 3.9.7 (no special changes for this).
+  * Switch to dh. Hopefully this should make the package easier
+    to fork. Closes: #693423.
+  * Change default /etc/profile to not warn about possibly undefined
+    variables PS1 and BASH. Closes: #776154.
+
+ -- Santiago Vila <sanvila@debian.org>  Fri, 04 Mar 2016 17:33:40 +0100
+
 base-files (9.5ev3dev1) testing; urgency=low
 
   * Merge ev3dev branding from ev3dev-jessie (changing jessie to stretch)
@@ -58,44 +79,6 @@ base-files (9) unstable; urgency=medium
     as those are the preferred URLs now.
 
  -- Santiago Vila <sanvila@debian.org>  Thu, 30 Apr 2015 12:00:50 +0200
-
-base-files (8+deb8u5ev3dev1) stable; urgency=medium
-
-  * Merge upstream debian changes.
-
- -- David Lechner <david@lechnology.com>  Sun, 31 Jul 2016 15:12:05 -0500
-
-base-files (8+deb8u5) stable; urgency=low
-
-  * Changed /etc/debian_version to 8.5, for Debian 8.5 point release.
-
- -- Santiago Vila <sanvila@debian.org>  Sun, 22 May 2016 12:48:52 +0200
-
-base-files (8+deb8u4) stable; urgency=low
-
-  * Changed /etc/debian_version to 8.4, for Debian 8.4 point release.
-
- -- Santiago Vila <sanvila@debian.org>  Mon, 14 Mar 2016 00:45:24 +0100
-
-base-files (8+deb8u3) stable; urgency=low
-
-  * Changed /etc/debian_version to 8.3, for Debian 8.3 point release.
-  * os-release: Drop trailing slash in SUPPORT_URL variable, as the URL
-    is not supposed to have it. Closes: #781809, #800791.
-
- -- Santiago Vila <sanvila@debian.org>  Wed, 06 Jan 2016 16:11:48 +0100
-
-base-files (8+deb8u2) stable; urgency=low
-
-  * Changed /etc/debian_version to 8.2, for Debian 8.2 point release.
-
- -- Santiago Vila <sanvila@debian.org>  Wed, 26 Aug 2015 18:30:02 +0200
-
-base-files (8+deb8u1) stable; urgency=low
-
-  * Changed /etc/debian_version to 8.1, for Debian 8.1 point release.
-
- -- Santiago Vila <sanvila@debian.org>  Mon, 04 May 2015 15:19:30 +0200
 
 base-files (8ev3dev1) stable; urgency=medium
 
