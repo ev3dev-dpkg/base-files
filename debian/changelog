@@ -1,3 +1,9 @@
+base-files (9.7ev3dev1) testing; urgency=medium
+
+  * Merge upstream base-files.
+
+ -- David Lechner <david@lechnology.com>  Thu, 08 Dec 2016 11:47:35 -0600
+
 base-files (9.7) unstable; urgency=medium
 
   * Do not care about /etc/nsswitch.conf anymore, as the file has been
